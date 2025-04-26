@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preços MiniMercado 7 Segue-me</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-color: #800080; /* Roxo */
+            color: #fff; /* Texto branco para melhor contraste com o roxo */
+        }
+        h1 {
+            color: #fff; /* Título branco */
+        }
+        .cardapio {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+            color: #333; /* Texto preto nos itens */
+        }
+        .item h3 {
+            margin-top: 0;
+        }
+        .item p {
+            margin-bottom: 5px;
+        }
+        .preco {
+            font-weight: bold;
+            color: #28a745;
+            margin-bottom: 10px;
+        }
+        .item button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .item button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Preços MiniMercado 7 Segue-me</h1>
+    <div class="cardapio">
+        <div class="item">
+            <h3>Coca-Cola Zero</h3>
+            <p>Refrigerante zero açúcar</p>
+            <p class="preco">R$ 5.00</p>
+            <button data-nome="Coca-Cola Zero" data-preco="5.00">Adicionar</button>
+        </div>
+        <div class="item">
+            <h3>Coca-Cola Lata</h3>
+            <p>Refrigerante tradicional</p>
+            <p class="preco">R$ 4.50</p>
+            <button data-nome="Coca-Cola Lata" data-preco="4.50">Adicionar</button>
+        </div>
+        <div class="item">
+            <h3>Energético</h3>
+            <p>Bebida energética</p>
+            <p class="preco">R$ 7.00</p>
+            <button data-nome="Energético" data-preco="7.00">Adicionar</button>
+        </div>
+        <div class="item">
+            <h3>Açaí</h3>
+            <p>Creme de açaí</p>
+            <p class="preco">R$ 10.00</p>
+            <button data-nome="Açaí" data-preco="10.00">Adicionar</button>
+        </div>
+        <div class="item">
+            <h3>Bolo de Pote</h3>
+            <p>Delicioso bolo no pote</p>
+            <p class="preco">R$ 7.50</p>
+            <button data-nome="Bolo de Pote" data-preco="7.50">Adicionar</button>
+        </div>
+        <div class="item">
+            <h3>Suco de Goiaba</h3>
+            <p>Suco natural de goiaba</p>
+            <p class="preco">R$ 7.00</p>
+            <button data-nome="Suco de Goiaba" data-preco="7.00">Adicionar</button>
+        </div>
+        <div class="item">
+            <h3>Suco de Caju</h3>
+            <p>Suco natural de caju</p>
+            <p class="preco">R$ 7.00</p>
+            <button data-nome="Suco de Caju" data-preco="7.00">Adicionar</button>
+        </div>
+        <div class="item">
+            <h3>Suco de Laranja</h3>
+            <p>Suco natural de laranja</p>
+            <p class="preco">R$ 7.00</p>
+            <button data-nome="Suco de Laranja" data-preco="7.00">Adicionar</button>
+        </div>
+        <div class="item">
+            <h3>Água com Gás</h3>
+            <p>Água gaseificada</p>
+            <p class="preco">R$ 3.50</p>
+            <button data-nome="Água com Gás" data-preco="3.50">Adicionar</button>
+        </div>
+        <div class="item">
+            <h3>Tirante</h3>
+            <p>Cordão personalizado</p>
+            <p class="preco">R$ 8.00</p>
+            <button data-nome="Tirante" data-preco="8.00">Adicionar</button>
+        </div>
+        <div class="item">
+            <h3>Botton</h3>
+            <p>Broche personalizado</p>
+            <p class="preco">R$ 5.00</p>
+            <button data-nome="Botton" data-preco="5.00">Adicionar</button>
+        </div>
+    </div>
+
+    <script>
+        // O JavaScript para o carrinho foi removido,
+        // mas a lógica de adicionar ainda está nos botões.
+    </script>
+</body>
+</html>
